@@ -1,0 +1,99 @@
+@import url('http://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+.header{
+    border-bottom: 2px solid blue;
+    margin-top: 20px !important;
+    margin-bottom:20px !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px !important;
+   
+}
+
+.header-container{
+    margin-right:0px !important;
+    margin-left:0px !important;
+    padding: 0 25% 0 35%; 
+}
+
+
+
+ .bg-light{
+     background: rgb(64, 112, 247) !important;
+     border-bottom: 3px solid #fff;
+     position: sticky;
+     top:0px;
+     z-index: 10;
+ }
+ .bg-light > a{
+     color: #fff !important;
+ }
+
+ .navbar-nav > a{
+     color: #fff !important;
+ }
+
+ .navbar-nav > a:hover{
+     text-decoration: underline;
+ }
+
+ img{
+     height:400px;
+     vertical-align: middle;
+     border-style: none;
+ }
+
+ body{
+     background: #eee;
+ }
+ .card{
+     border : none !important;
+     border-bottom:3px solid rgb(64, 112, 247)!important;
+     
+ }
+
+ input[type=text]{
+     background: #eee;
+     border: none !important;
+     box-shadow: 0px 1px 1px #ddd !important;
+     
+ }
+
+ input[type=text]:focus{
+     background: #eee;
+     border: none !important;
+     box-shadow:0px 4px 5px #ccc !important;
+ }
+
+
+
+.table.thead-light th{
+    color:#fff !important;
+    background: rgb(64, 112, 247)!important;
+    border: none !important;
+}
+footer{
+    height:10px;
+    width: 100%;
+    margin-top: 60px;
+    background:rgb(64, 112, 247);
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
